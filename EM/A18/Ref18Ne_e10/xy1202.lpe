@@ -1,0 +1,74 @@
+! ---------- shell input for xy1202.lpe
+imsrg              input *.sp file name
+imsrg              proton-neutron *.sp file name
+imsrg              interaction file name
+   6   8   8   1   1  10         number of pn orbitals, inc-core, izc-core, nvp-valence nvn-valence, neig
+
+    7     number of levels
+  -11.0557    2   0   1    0.6835   0.1799   0.1366   0.6677   0.1964   0.1359
+   -4.7539    2   0   1    0.3968   0.0848   0.5184   0.3934   0.0855   0.5211
+   -2.5078    2   0   1    0.1192   0.3328   0.5480   0.1177   0.3140   0.5682
+    0.3962    2   0   1    0.2110   0.5593   0.2297   0.4082   0.3086   0.2832
+    1.4192    2   0   1    0.5815   0.4143   0.0042   0.4064   0.5811   0.0125
+    2.9882    2   0   1    0.0015   0.4582   0.5403   0.0001   0.5419   0.4580
+    6.9524    2   0   1    0.0066   0.9707   0.0227   0.0066   0.9724   0.0211
+
+! ---------- begin input for f_180.modelx
+M
+imsrg     
+  6
+  3
+0d5/2
+0d3/2
+1s1/2
+0d5/2
+0d3/2
+1s1/2
+y
+y
+   0 999   0 999   0 999
+y
+  1  0  6
+y
+  2  0  4
+y
+  3  0  2
+y
+  4  0  6
+y
+  5  0  4
+y
+  6  0  2
+n
+n
+X
+! ---------- end input for f_180.modelx
+
+! ---------- begin input for f_180.levelx
+L
+f_180
+s
+imsrg     
+  -1
+  -1
+y
+np
+f_180
+n
+n
+n
+  0  8  2
+n
+  1  5  2
+n
+  1  5  2
+0
+0
+ 1
+  10
+n
+s
+y
+X
+! ---------- end input for f_180.levelx
+

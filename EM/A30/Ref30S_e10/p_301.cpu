@@ -1,0 +1,192 @@
+  Reading interaction file
+  Reading interaction file
+s.op file already exists
+  CPU Time for NuBasis was   7.0429984E-03  seconds
+  Elapsed Time for NuBasis was   0.0000000E+00  seconds
+ 
+ Starting
+  CPU Time for NuProj was    1.732676      seconds
+  Elapsed Time for NuProj was   0.0000000E+00  seconds
+ 
+bs.op file already exists
+  CPU Time for NuMatrix was   2.1060996E-02  seconds
+  Elapsed Time for NuMatrix was   0.0000000E+00  seconds
+ 
+ p_301bs
+          14 s
+ p_301bs
+  CPU Time for NuOrth was   3.1679999E-03  seconds
+  Elapsed Time for NuOrth was   0.0000000E+00  seconds
+ 
+ in nuopm the 2*maxdj =           10
+  Proton TRM
+  No of OPM matrix elements        12317 T F a+a-
+  CPU Time for NuOpm was   3.9681002E-02  seconds
+  Elapsed Time for NuOpm was   0.0000000E+00  seconds
+ 
+ 1   0.0000000E+00         999
+ a       12317 T F a+a-
+ a+a- T F
+  Proton OPD 
+ 2   0.0000000E+00         999
+  Nucleon types ab np
+ 3a  0.0000000E+00         999
+ 3b  0.0000000E+00         999
+ trmd,indexx =         4261       12317
+  Transition Density Op a+a-
+  Opmd =         4261
+ 4   0.0000000E+00         999
+ 5   0.1250000             999
+ 6a  0.1250000             999
+ 6b  0.1250000             999
+  Opdd =         1076
+ 6c  0.1250000             999
+ 6d  0.1250000             999
+ 7   0.1250000             999
+ 8   0.1250000             999
+ 9   0.1250000             999
+  No of OPD matrix elements                  36370 T F
+  CPU Time for NuOpd was   0.1242100      seconds
+  Elapsed Time for NuOpd was   0.0000000E+00  seconds
+  CPU Time for NuBasis was   8.6909998E-03  seconds
+  Elapsed Time for NuBasis was   0.0000000E+00  seconds
+ 
+ Starting
+  CPU Time for NuProj was   0.9631260      seconds
+  Elapsed Time for NuProj was   0.0000000E+00  seconds
+ 
+as.op file already exists
+  CPU Time for NuMatrix was   2.1032006E-02  seconds
+  Elapsed Time for NuMatrix was   0.0000000E+00  seconds
+ 
+ p_301as
+          14 s
+ p_301as
+  CPU Time for NuOrth was   3.1039999E-03  seconds
+  Elapsed Time for NuOrth was   0.0000000E+00  seconds
+ 
+ in nuopm the 2*maxdj =           10
+  Neutron TRM
+  No of OPM matrix elements        12317 F T a+a-
+  CPU Time for NuOpm was   3.9417014E-02  seconds
+  Elapsed Time for NuOpm was   0.0000000E+00  seconds
+ 
+ 1   0.0000000E+00         999
+ a       12317 F T a+a-
+ a+a- F T
+  Neutron OPD 
+ 2   0.0000000E+00         999
+  Nucleon types ab np
+ 3a  0.0000000E+00         999
+ 3b  0.0000000E+00         999
+ trmd,indexx =         4261       12317
+  Transition Density Op a+a-
+  Opmd =         4261
+ 4   0.0000000E+00         999
+ 5   0.1250000             999
+ 6a  0.1250000             999
+ 6b  0.1250000             999
+  Opdd =         1076
+ 6c  0.1250000             999
+ 6d  0.1250000             999
+ 7   0.1250000             999
+ 8   0.1250000             999
+ 9   0.1250000             999
+  No of OPD matrix elements                  36370 F T
+  CPU Time for NuOpd was   0.1264770      seconds
+  Elapsed Time for NuOpd was   0.0000000E+00  seconds
+  p_301s          10
+  VERSION 4.0
+          14           1          13 T F  3.9208680E-07           0 a+a-
+           2
+ No of matrices BAS            7
+%comp%    compiler
+ No of total states         2533
+ No of basis states with 2J =   0 + parity      2533
+ No of basis states with 2J =   0 - parity         0
+ aa        1076          10                 36370
+        1076          10                 36370
+ tparity =           -1
+
+        0 number of states with 2j =   0
+    0 number of required levels
+    0 max number of iterations, imax = 10000 noiterx = 100
+    1 first iteration for eigen (tqli)
+    0 increments to check for convergence
+
+  p_301s          10
+  VERSION 4.0
+          14           1          13 T F  3.9208680E-07           0 a+a-
+           2
+ No of matrices BAS           19
+%comp%    compiler
+ No of total states         7081
+ No of basis states with 2J =   2 + parity      7081
+ No of basis states with 2J =   2 - parity         0
+ aa        1076          10                 36370
+        1076          10                 36370
+ tparity =           -1
+
+        0 number of states with 2j =   2
+    0 number of required levels
+    0 max number of iterations, imax = 10000 noiterx = 100
+    1 first iteration for eigen (tqli)
+    0 increments to check for convergence
+
+  p_301s          10
+  VERSION 4.0
+          14           1          13 T F  3.9208680E-07           0 a+a-
+           2
+ No of matrices BAS           28
+%comp%    compiler
+ No of total states        10286
+ No of basis states with 2J =   4 + parity     10286
+ No of basis states with 2J =   4 - parity         0
+ aa        1076          10                 36370
+        1076          10                 36370
+ tparity =           -1
+
+        0 number of states with 2j =   4
+    0 number of required levels
+    0 max number of iterations, imax = 10000 noiterx = 100
+    1 first iteration for eigen (tqli)
+    0 increments to check for convergence
+
+  p_301s          10
+  VERSION 4.0
+          14           1          13 T F  3.9208680E-07           0 a+a-
+           2
+ No of matrices BAS           34
+%comp%    compiler
+ No of total states        11674
+ No of basis states with 2J =   6 + parity     11674
+ No of basis states with 2J =   6 - parity         0
+ aa        1076          10                 36370
+        1076          10                 36370
+ tparity =           -1
+
+        0 number of states with 2j =   6
+    0 number of required levels
+    0 max number of iterations, imax = 10000 noiterx = 100
+    1 first iteration for eigen (tqli)
+    0 increments to check for convergence
+
+  p_301s          10
+  VERSION 4.0
+          14           1          13 T F  3.9208680E-07           0 a+a-
+           2
+ No of matrices BAS           37
+%comp%    compiler
+ No of total states        11296
+ No of basis states with 2J =   8 + parity     11296
+ No of basis states with 2J =   8 - parity         0
+ aa        1076          10                 36370
+        1076          10                 36370
+ tparity =           -1
+
+        0 number of states with 2j =   8
+    0 number of required levels
+    0 max number of iterations, imax = 10000 noiterx = 100
+    1 first iteration for eigen (tqli)
+    0 increments to check for convergence
+

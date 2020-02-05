@@ -1,0 +1,63 @@
+! ---------- shell input for xy5a00.lpe
+imsrg              input *.sp file name
+imsrg              proton-neutron *.sp file name
+imsrg              interaction file name
+   4   2   2   5   5  10         number of pn orbitals, inc-core, izc-core, nvp-valence nvn-valence, neig
+
+    2     number of levels
+  -90.3811    0   0   1    3.8849   1.1151   3.8849   1.1151
+  -73.2280    0   0   1    3.1151   1.8849   3.1151   1.8849
+
+! ---------- begin input for n_140.modelx
+M
+imsrg     
+  4
+  2
+0p3/2
+0p1/2
+0p3/2
+0p1/2
+y
+y
+   0 999   0 999   0 999
+y
+  1  0  4
+y
+  2  0  2
+y
+  3  0  4
+y
+  4  0  2
+n
+n
+X
+! ---------- end input for n_140.modelx
+
+! ---------- begin input for n_140.levelx
+L
+n_140
+s
+imsrg     
+  -5
+  -5
+y
+np
+n_140
+n
+n
+n
+  0  8  2
+n
+  1  3  2
+n
+  1  3  2
+0
+0
+ 1
+  10
+n
+s
+y
+X
+! ---------- end input for n_140.levelx
+

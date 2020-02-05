@@ -1,0 +1,331 @@
+  Reading interaction file
+  Reading interaction file
+s.op file already exists
+  CPU Time for NuBasis was   9.5719993E-03  seconds
+  Elapsed Time for NuBasis was   0.0000000E+00  seconds
+ 
+ Starting
+  CPU Time for NuProj was    2.142254      seconds
+  Elapsed Time for NuProj was   0.0000000E+00  seconds
+ 
+bs.op file already exists
+  CPU Time for NuMatrix was   1.8055998E-02  seconds
+  Elapsed Time for NuMatrix was   0.0000000E+00  seconds
+ 
+ s_300bs
+          12 s
+ s_300bs
+  CPU Time for NuOrth was   3.0100001E-03  seconds
+  Elapsed Time for NuOrth was   0.0000000E+00  seconds
+ 
+ in nuopm the 2*maxdj =           10
+  Proton TRM
+  No of OPM matrix elements         8164 T F a+a-
+  CPU Time for NuOpm was   4.0327996E-02  seconds
+  Elapsed Time for NuOpm was   0.0000000E+00  seconds
+ 
+ 1   0.0000000E+00         999
+ a        8164 T F a+a-
+ a+a- T F
+  Proton OPD 
+ 2   0.0000000E+00         999
+  Nucleon types ab np
+ 3a  0.0000000E+00         999
+ 3b  0.0000000E+00         999
+ trmd,indexx =         3237        8164
+  Transition Density Op a+a-
+  Opmd =         3237
+ 4   0.0000000E+00         999
+ 5   0.1250000             999
+ 6a  0.1250000             999
+ 6b  0.1250000             999
+  Opdd =         1076
+ 6c  0.1250000             999
+ 6d  0.1250000             999
+ 7   0.1250000             999
+ 8   0.1250000             999
+ 9   0.1250000             999
+  No of OPD matrix elements                  17226 T F
+  CPU Time for NuOpd was   0.1228690      seconds
+  Elapsed Time for NuOpd was    1.000000      seconds
+  CPU Time for NuBasis was   1.1462003E-02  seconds
+  Elapsed Time for NuBasis was   0.0000000E+00  seconds
+ 
+ Starting
+  CPU Time for NuProj was    2.075632      seconds
+  Elapsed Time for NuProj was   0.0000000E+00  seconds
+ 
+as.op file already exists
+  CPU Time for NuMatrix was   2.2825003E-02  seconds
+  Elapsed Time for NuMatrix was   0.0000000E+00  seconds
+ 
+ s_300as
+          15 s
+ s_300as
+  CPU Time for NuOrth was   3.4719994E-03  seconds
+  Elapsed Time for NuOrth was   0.0000000E+00  seconds
+ 
+ in nuopm the 2*maxdj =           10
+  Neutron TRM
+  No of OPM matrix elements        16760 F T a+a-
+  CPU Time for NuOpm was   5.0990000E-02  seconds
+  Elapsed Time for NuOpm was   0.0000000E+00  seconds
+ 
+ 1   0.0000000E+00         999
+ a       16760 F T a+a-
+ a+a- F T
+  Neutron OPD 
+ 2   0.0000000E+00         999
+  Nucleon types ab np
+ 3a  0.0000000E+00         999
+ 3b  0.0000000E+00         999
+ trmd,indexx =         5050       16760
+  Transition Density Op a+a-
+  Opmd =         5050
+ 4   0.0000000E+00         999
+ 5   0.2500000             999
+ 6a  0.2500000             999
+ 6b  0.2500000             999
+  Opdd =         1280
+ 6c  0.2500000             999
+ 6d  0.2500000             999
+ 7   0.2500000             999
+ 8   0.2500000             999
+ 9   0.2500000             999
+  No of OPD matrix elements                  48782 F T
+  CPU Time for NuOpd was   0.2060290      seconds
+  Elapsed Time for NuOpd was   0.0000000E+00  seconds
+  s_300s          10
+  VERSION 4.0
+          12           0          12 T F  0.7514117               0 a+a-
+           2
+ No of matrices BAS            7
+%comp%    compiler
+ No of total states         1968
+ No of basis states with 2J =   0 + parity      1968
+ No of basis states with 2J =   0 - parity         0
+ aa        1280          10                 48782
+        1076          10                 17226
+ tparity =            1
+
+     1968 number of states with 2j =   0
+   10 number of required levels
+ 1000 max number of iterations, imax = 10000 noiterx = 100
+  100 first iteration for eigen (tqli)
+   10 increments to check for convergence
+
+iteration, imin, imax =      10     1   100       0.0       0.0  0.00     0
+iteration, imin, imax =      20     1   100       0.0       0.0  0.00     0
+iteration, imin, imax =      30     1   100       0.1       0.1  0.00     0
+iteration, imin, imax =      40     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      50     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      60     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      70     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      80     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      90     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =     100     1   100       0.2       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   0   101  0.0005 132.1091       0.25      0.25      0.00
+iteration, imin, imax =     110   101   111       0.2       0.0  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   0   112  0.0005   0.0000       0.38      0.12      0.12
+ Nulnz: No of iterations, northog         112         111
+  CPU Time for NuLnz (nucorex) was    19.77741      seconds
+  Elapsed Time for NuLnz (nucorex) was   0.3750000      seconds
+ 
+ aa        1968          10          10        1968         111
+ 
+  -132.109+  -127.304+  -125.214+  -124.757+  -123.532+
+  -122.889+  -121.415+  -120.126+  -119.910+  -119.448+
+ 
+  CPU Time for NuVec was   6.1309002E-02  seconds
+  Elapsed Time for NuVec was   0.0000000E+00  seconds
+ 
+  s_300s          10
+  VERSION 4.0
+          12           0          12 T F  0.7514117               0 a+a-
+           2
+ No of matrices BAS           19
+%comp%    compiler
+ No of total states         5328
+ No of basis states with 2J =   2 + parity      5328
+ No of basis states with 2J =   2 - parity         0
+ aa        1280          10                 48782
+        1076          10                 17226
+ tparity =            1
+
+     5328 number of states with 2j =   2
+   10 number of required levels
+ 1000 max number of iterations, imax = 10000 noiterx = 100
+  100 first iteration for eigen (tqli)
+   10 increments to check for convergence
+
+iteration, imin, imax =      10     1   100       0.1       0.1  0.00     0
+iteration, imin, imax =      20     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      30     1   100       0.1       0.0  0.00     0
+iteration, imin, imax =      40     1   100       0.2       0.1  0.00     0
+iteration, imin, imax =      50     1   100       0.2       0.0  0.00     0
+iteration, imin, imax =      60     1   100       0.2       0.0  0.00     0
+iteration, imin, imax =      70     1   100       0.4       0.1  0.00     0
+iteration, imin, imax =      80     1   100       0.4       0.0  0.00     0
+iteration, imin, imax =      90     1   100       0.5       0.1  0.00     0
+iteration, imin, imax =     100     1   100       0.5       0.0  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   2   101  0.0005 127.4765       0.62      0.62      0.12
+iteration, imin, imax =     110   101   111       0.6       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   2   112  0.0005   0.0181       0.75      0.12      0.12
+iteration, imin, imax =     120   112   122       0.8       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   2   123  0.0005   0.0001       0.88      0.12      0.12
+ Nulnz: No of iterations, northog         123         122
+  CPU Time for NuLnz (nucorex) was    40.76469      seconds
+  Elapsed Time for NuLnz (nucorex) was   0.8750000      seconds
+ 
+ aa        5328          10          10        5328         122
+ 
+  -127.477+  -124.515+  -123.930+  -123.614+  -122.974+
+  -122.402+  -122.154+  -121.545+  -121.272+  -120.931+
+ 
+  CPU Time for NuVec was   7.7576004E-02  seconds
+  Elapsed Time for NuVec was   0.0000000E+00  seconds
+ 
+  s_300s          10
+  VERSION 4.0
+          12           0          12 T F  0.7514117               0 a+a-
+           2
+ No of matrices BAS           28
+%comp%    compiler
+ No of total states         7812
+ No of basis states with 2J =   4 + parity      7812
+ No of basis states with 2J =   4 - parity         0
+ aa        1280          10                 48782
+        1076          10                 17226
+ tparity =            1
+
+     7812 number of states with 2j =   4
+   10 number of required levels
+ 1000 max number of iterations, imax = 10000 noiterx = 100
+  100 first iteration for eigen (tqli)
+   10 increments to check for convergence
+
+iteration, imin, imax =      10     1   100       0.1       0.1  0.00     0
+iteration, imin, imax =      20     1   100       0.2       0.1  0.00     0
+iteration, imin, imax =      30     1   100       0.2       0.0  0.00     0
+iteration, imin, imax =      40     1   100       0.4       0.1  0.00     0
+iteration, imin, imax =      50     1   100       0.4       0.0  0.00     0
+iteration, imin, imax =      60     1   100       0.5       0.1  0.00     0
+iteration, imin, imax =      70     1   100       0.6       0.1  0.00     0
+iteration, imin, imax =      80     1   100       0.8       0.1  0.00     0
+iteration, imin, imax =      90     1   100       0.8       0.0  0.00     0
+iteration, imin, imax =     100     1   100       0.9       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   4   101  0.0005 129.4029       0.88      0.88      0.00
+iteration, imin, imax =     110   101   111       1.0       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   4   112  0.0005   0.0643       1.12      0.25      0.12
+iteration, imin, imax =     120   112   122       1.1       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   4   123  0.0005   0.0011       1.25      0.12      0.00
+iteration, imin, imax =     130   123   133       1.4       0.2  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   4   134  0.0005   0.0001       1.50      0.25      0.12
+ Nulnz: No of iterations, northog         134         133
+  CPU Time for NuLnz (nucorex) was    70.43074      seconds
+  Elapsed Time for NuLnz (nucorex) was    1.500000      seconds
+ 
+ aa        7812          10          10        7812         133
+ 
+  -129.403+  -128.156+  -126.269+  -125.861+  -124.706+
+  -124.475+  -123.871+  -123.286+  -123.140+  -122.843+
+ 
+  CPU Time for NuVec was   9.6058004E-02  seconds
+  Elapsed Time for NuVec was   0.0000000E+00  seconds
+ 
+  s_300s          10
+  VERSION 4.0
+          12           0          12 T F  0.7514117               0 a+a-
+           2
+ No of matrices BAS           34
+%comp%    compiler
+ No of total states         8733
+ No of basis states with 2J =   6 + parity      8733
+ No of basis states with 2J =   6 - parity         0
+ aa        1280          10                 48782
+        1076          10                 17226
+ tparity =            1
+
+     8733 number of states with 2j =   6
+   10 number of required levels
+ 1000 max number of iterations, imax = 10000 noiterx = 100
+  100 first iteration for eigen (tqli)
+   10 increments to check for convergence
+
+iteration, imin, imax =      10     1   100       0.2       0.2  0.00     0
+iteration, imin, imax =      20     1   100       0.2       0.0  0.00     0
+iteration, imin, imax =      30     1   100       0.5       0.2  0.00     0
+iteration, imin, imax =      40     1   100       0.5       0.0  0.00     0
+iteration, imin, imax =      50     1   100       0.6       0.1  0.00     0
+iteration, imin, imax =      60     1   100       0.8       0.1  0.00     0
+iteration, imin, imax =      70     1   100       0.8       0.0  0.00     0
+iteration, imin, imax =      80     1   100       0.9       0.1  0.00     0
+iteration, imin, imax =      90     1   100       1.0       0.1  0.00     0
+iteration, imin, imax =     100     1   100       1.1       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   6   101  0.0005 126.8240       1.12      1.12      0.00
+iteration, imin, imax =     110   101   111       1.2       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   6   112  0.0005   0.2917       1.38      0.25      0.12
+iteration, imin, imax =     120   112   122       1.5       0.2  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   6   123  0.0005   0.0448       1.62      0.25      0.12
+iteration, imin, imax =     130   123   133       1.8       0.2  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   6   134  0.0005   0.0019       1.88      0.25      0.12
+iteration, imin, imax =     140   134   144       2.0       0.2  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   6   145  0.0005   0.0001       2.25      0.38      0.12
+ Nulnz: No of iterations, northog         145         144
+  CPU Time for NuLnz (nucorex) was    98.21383      seconds
+  Elapsed Time for NuLnz (nucorex) was    2.250000      seconds
+ 
+ aa        8733          10          10        8733         144
+ 
+  -126.824+  -126.065+  -124.423+  -123.959+  -123.114+
+  -122.343+  -122.040+  -121.953+  -121.298+  -121.262+
+ 
+  CPU Time for NuVec was   0.1190840      seconds
+  Elapsed Time for NuVec was   0.0000000E+00  seconds
+ 
+  s_300s          10
+  VERSION 4.0
+          12           0          12 T F  0.7514117               0 a+a-
+           2
+ No of matrices BAS           37
+%comp%    compiler
+ No of total states         8451
+ No of basis states with 2J =   8 + parity      8451
+ No of basis states with 2J =   8 - parity         0
+ aa        1280          10                 48782
+        1076          10                 17226
+ tparity =            1
+
+     8451 number of states with 2j =   8
+   10 number of required levels
+ 1000 max number of iterations, imax = 10000 noiterx = 100
+  100 first iteration for eigen (tqli)
+   10 increments to check for convergence
+
+iteration, imin, imax =      10     1   100       0.2       0.2  0.00     0
+iteration, imin, imax =      20     1   100       0.4       0.1  0.00     0
+iteration, imin, imax =      30     1   100       0.4       0.0  0.00     0
+iteration, imin, imax =      40     1   100       0.5       0.1  0.00     0
+iteration, imin, imax =      50     1   100       0.6       0.1  0.00     0
+iteration, imin, imax =      60     1   100       0.8       0.1  0.00     0
+iteration, imin, imax =      70     1   100       0.8       0.0  0.00     0
+iteration, imin, imax =      80     1   100       0.9       0.1  0.00     0
+iteration, imin, imax =      90     1   100       1.0       0.1  0.00     0
+iteration, imin, imax =     100     1   100       1.1       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   8   101  0.0005 126.4607       1.12      1.12      0.00
+iteration, imin, imax =     110   101   111       1.2       0.1  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   8   112  0.0005   0.0007       1.38      0.25      0.12
+iteration, imin, imax =     120   112   122       1.5       0.2  0.00     0
+2j,niter,limit,maxd,time,dtime,timetq =   8   123  0.0005   0.0000       1.62      0.25      0.12
+ Nulnz: No of iterations, northog         123         122
+  CPU Time for NuLnz (nucorex) was    69.77809      seconds
+  Elapsed Time for NuLnz (nucorex) was    1.625000      seconds
+ 
+ aa        8451          10          10        8451         122
+ 
+  -126.461+  -125.547+  -123.815+  -123.571+  -122.656+
+  -122.318+  -122.110+  -121.906+  -121.589+  -121.127+
+ 
+  CPU Time for NuVec was   9.5813006E-02  seconds
+  Elapsed Time for NuVec was   0.0000000E+00  seconds
+ 

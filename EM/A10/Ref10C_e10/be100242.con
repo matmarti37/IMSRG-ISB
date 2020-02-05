@@ -1,0 +1,7 @@
+
+       17 number of states with 2j =   4
+   10 number of required levels
+   17 max number of iterations, imax = 10000 noiterx = 100
+   17 first iteration for eigen (tqli)
+   10 increments to check for convergence
+

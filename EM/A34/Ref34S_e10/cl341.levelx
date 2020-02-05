@@ -1,0 +1,27 @@
+! ---------- begin input for cl341.levelx
+L
+cl341
+s
+imsrg     
+  -9
+  -9
+y
+np
+cl341
+n
+n
+n
+  0  8  2
+n
+  1 11  2
+n
+  1 11  2
+0
+0
+-1
+  10
+n
+s
+y
+X
+! ---------- end input for cl341.levelx

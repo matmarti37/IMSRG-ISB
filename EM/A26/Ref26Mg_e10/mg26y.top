@@ -1,0 +1,240 @@
+nr 0.,10.,0.,    6.00
+ts 1.,1.3
+ax
+r
+fi 4.,7.,1.,6.
+0.,  5.00,  5.00,  5.00
+ -1.00,  6.00,0.5,1.,E (MeV)
+ds linef
+lw  1.00
+dl 1.0,  -0.700,$( 26)Mg
+dl   3.0,  -0.700,imsrg     
+co red
+ds line
+di 
+     0.500     0.000
+     0.700     0.000
+ds fir
+di 
+     0.700     0.000
+dl    0.800,  -0.100, 0+
+co red
+ds line
+di 
+     0.500     2.453
+     1.100     2.453
+ds fir
+di 
+     1.100     2.453
+dl    1.200,   2.353, 2+
+co red
+ds line
+di 
+     0.500     3.783
+     0.700     3.783
+ds fir
+di 
+     0.700     3.783
+co red
+ds line
+di 
+     0.500     3.806
+     1.100     3.806
+ds fir
+di 
+     1.100     3.806
+co red
+ds line
+di 
+     0.500     4.421
+     1.300     4.421
+ds fir
+di 
+     1.300     4.421
+dl    1.400,   4.321, 3+
+co red
+ds line
+di 
+     0.500     4.681
+     1.100     4.681
+ds fir
+di 
+     1.100     4.681
+co red
+ds line
+di 
+     0.500     5.190
+     1.300     5.190
+ds fir
+di 
+     1.300     5.190
+co red
+ds line
+di 
+     0.500     5.258
+     1.500     5.258
+ds fir
+di 
+     1.500     5.258
+dl    1.600,   5.158, 4+
+co red
+ds line
+di 
+     0.500     5.421
+     1.100     5.421
+ds fir
+di 
+     1.100     5.421
+co red
+ds line
+di 
+     0.500     5.703
+     1.500     5.703
+ds fir
+di 
+     1.500     5.703
+co red
+ds line
+di 
+     0.500     5.826
+     1.100     5.826
+ds fir
+di 
+     1.100     5.826
+co black
+
+nr 0.,10.,0.,    6.00
+fi 1.,4.,1.,6.
+0.,  5.00,  5.00,  5.00
+   -1.00,    6.00,0.5,1.,E (MeV)
+ds linef
+dl 1.5,  -0.800,experiment
+dl 0.5,  -0.400,$( 26)Mg
+dl   1.50,  -0.400,(Z=12)
+dl   3.00,  -0.400,(N=14)
+co red
+ds line
+di 
+     0.500     0.000
+     0.700     0.000
+ds fir
+di 
+     0.700     0.000
+dl    0.800,  -0.100, 0+
+co red
+ds line
+di 
+     0.500     1.809
+     1.100     1.809
+ds fir
+di 
+     1.100     1.809
+dl    1.200,   1.709, 2+
+co red
+ds line
+di 
+     0.500     2.938
+     1.100     2.938
+ds fir
+di 
+     1.100     2.938
+co red
+ds line
+di 
+     0.500     3.589
+     0.700     3.589
+ds fir
+di 
+     0.700     3.589
+co red
+ds line
+di 
+     0.500     3.942
+     1.300     3.942
+ds fir
+di 
+     1.300     3.942
+dl    1.400,   3.842, 3+
+co red
+ds line
+di 
+     0.500     4.319
+     1.500     4.319
+ds fir
+di 
+     1.500     4.319
+dl    1.600,   4.219, 4+
+co red
+ds line
+di 
+     0.500     4.333
+     1.100     4.333
+ds fir
+di 
+     1.100     4.333
+co red
+ds line
+di 
+     0.500     4.350
+     1.300     4.350
+ds fir
+di 
+     1.300     4.350
+co red
+ds line
+di 
+     0.500     4.835
+     1.100     4.835
+ds fir
+di 
+     1.100     4.835
+co red
+ds line
+di 
+     0.500     4.901
+     1.500     4.901
+ds fir
+di 
+     1.500     4.901
+co red
+ds line
+di 
+     0.500     4.972
+     0.700     4.972
+ds fir
+di 
+     0.700     4.972
+co red
+ds line
+di 
+     0.500     5.292
+     1.100     5.292
+ds fir
+di 
+     1.100     5.292
+co red
+ds line
+di 
+     0.500     5.476
+     1.500     5.476
+ds fir
+di 
+     1.500     5.476
+co red
+ds line
+di 
+     0.500     5.691
+     0.900     5.691
+ds fir
+di 
+     0.900     5.691
+co red
+ds line
+di 
+     0.500     5.716
+     1.500     5.716
+ds fir
+di 
+     1.500     5.716
+co black
+

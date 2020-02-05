@@ -1,0 +1,71 @@
+! ---------- shell input for xy2604.lpe
+imsrg              input *.sp file name
+imsrg              proton-neutron *.sp file name
+imsrg              interaction file name
+   4   2   2   2   4  10         number of pn orbitals, inc-core, izc-core, nvp-valence nvn-valence, neig
+
+   10     number of levels
+  -35.4159    4   2   1    1.6443   0.3557   3.3756   0.6244
+  -33.9725    4   2   1    1.5884   0.4116   2.8508   1.1492
+  -30.0876    4   2   1    1.3922   0.6078   3.0098   0.9902
+  -28.7861    4   2   1    1.6416   0.3584   2.6984   1.3016
+  -22.9942    4   2   1    1.4954   0.5046   2.6969   1.3031
+  -20.6179    4   2   1    1.5866   0.4134   2.8978   1.1022
+  -19.3367    4   2   1    0.9419   1.0581   2.9303   1.0697
+  -17.2756    4   2   1    1.2227   0.7773   2.9094   1.0906
+  -15.9188    4   2   1    1.4035   0.5965   2.6611   1.3389
+  -15.6388    4   2   1    1.6326   0.3674   3.1147   0.8853
+
+! ---------- begin input for be100.modelx
+M
+imsrg     
+  4
+  2
+0p3/2
+0p1/2
+0p3/2
+0p1/2
+y
+y
+   0 999   0 999   0 999
+y
+  1  0  4
+y
+  2  0  2
+y
+  3  0  4
+y
+  4  0  2
+n
+n
+X
+! ---------- end input for be100.modelx
+
+! ---------- begin input for be100.levelx
+L
+be100
+s
+imsrg     
+   2
+   4
+y
+np
+be100
+n
+n
+n
+  0  8  2
+n
+  0  4  2
+n
+  0  4  2
+0
+0
+ 1
+  10
+n
+s
+y
+X
+! ---------- end input for be100.levelx
+

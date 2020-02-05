@@ -1,0 +1,27 @@
+! ---------- begin input for mg220.levelx
+L
+mg220
+s
+imsrg     
+  -4
+  -2
+y
+np
+mg220
+n
+n
+n
+  0  8  2
+n
+  0 12  2
+n
+  0  8  2
+0
+0
+ 1
+  10
+n
+s
+y
+X
+! ---------- end input for mg220.levelx

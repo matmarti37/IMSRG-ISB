@@ -1,0 +1,5 @@
+! ---------- shell input for xy4614.lpe
+imsrg              input *.sp file name
+imsrg              proton-neutron *.sp file name
+imsrg              interaction file name
+   6   8   8   4   2  10         number of pn orbitals, inc-core, izc-core, nvp-valence nvn-valence, neig

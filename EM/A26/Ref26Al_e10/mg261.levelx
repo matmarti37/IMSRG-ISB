@@ -1,0 +1,27 @@
+! ---------- begin input for mg261.levelx
+L
+mg261
+s
+imsrg     
+   4
+   6
+y
+np
+mg261
+n
+n
+n
+  0  8  2
+n
+  0 12  2
+n
+  0 14  2
+0
+0
+-1
+  10
+n
+s
+y
+X
+! ---------- end input for mg261.levelx
