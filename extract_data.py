@@ -23,4 +23,5 @@ for Int in interactions:
                 os.chdir(shortfile)
                 os.system("cp ../../../"+filehead+"/**0.dat .")
                 os.system("cp ../../../"+filehead+"/**y.lpt .")
+                os.system("cp ../../../"+filehead+"/imsrg.int")
                 os.chdir("../../..")
