@@ -18,6 +18,8 @@ for Int in interactions:
             for e in elist:
                 filehead = "NuShell/"+Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
                 shortfile= Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                if not os.path.exists(shortfile):
+                    os.makedirs(shortfile)
                 os.chdir(shortfile)
                 os.system("cp ../"+filehead+"/**0.dat .")
                 os.system("cp ../"+filehead+"/**y.lpt .")
