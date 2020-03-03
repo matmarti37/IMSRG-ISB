@@ -37,4 +37,4 @@ for Int in interactions:
                 os.system("mv *.sp imsrg.sp")
 
                 # Changes back to the parent directory
-                os.chdir("../../..")
+                os.chdir("../../../..")
