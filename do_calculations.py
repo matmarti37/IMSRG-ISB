@@ -17,7 +17,20 @@ for Int in interactions:
         for element in ELES:
             for e in elist:
                 # Changes directory
-                filehead = Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                filehead = "NuShell/"+Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
                 os.chdir(filehead)
                 os.system("bash runshell.sh")
+                os.chdir("../../../..")
+
+for Int in interactions:
+    for A in Alist:
+        A = int(A)
+        ELES = [ELEM[int(A/2-1)],ELEM[int(A/2)],ELEM[int(A/2+1)]]
+        for element in ELES:
+            for e in elist:
+                filehead = "NuShell/"+Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                shortfile= Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                os.chdir(shorfile)
+                os.system("cp ../"+filehead+"/**0.dat .")
+                os.system("cp ../"+filehead+"/**y.lpt .")
                 os.chdir("../../..")

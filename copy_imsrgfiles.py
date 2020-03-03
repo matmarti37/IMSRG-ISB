@@ -17,7 +17,7 @@ for Int in interactions:
         for element in ELES:
             for e in elist:
                 # Creates a new file for a reference state if it doesn't exist and then goes into that file
-                filehead = Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                filehead = "NuShell/"+Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
                 if not os.path.exists(filehead):
                     os.makedirs(filehead)
                 os.chdir(filehead)

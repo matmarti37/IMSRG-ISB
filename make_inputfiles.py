@@ -17,7 +17,7 @@ for Int in interactions:
             for element in ELES:
                 for e in elist:
                     # Changes directory
-                    filehead = Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
+                    filehead = "NuShell/"+Int+"/A"+str(A)+"/Ref"+str(A)+str(element)+"_e"+str(e)
                     os.chdir(filehead)
 
                     # Creates a .ans file for shell
@@ -67,5 +67,5 @@ for Int in interactions:
                     transin1.write(transin[1])
 
                     # Copies the runshell bash script into directory and goes back to parent
-                    os.system("cp ../../../runshell.sh .")
-                    os.chdir("../../..")
+                    os.system("cp ../../../../runshell.sh .")
+                    os.chdir("../../../..")
